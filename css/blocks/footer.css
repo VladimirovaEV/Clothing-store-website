@@ -1,0 +1,25 @@
+.footer__wrap {
+  display: grid;
+  grid-template-columns: 1fr 165px;
+  grid-column-gap: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer__menu .menu__item {
+  margin-left: 45px;
+}
+.footer__menu .menu__item:first-child {
+  margin-left: 0;
+}
+
+@media (max-width:  1080px) {
+  .footer__menu .menu__item {
+  margin-left: 25px;
+}
+}
+@media (max-width:  768px) {
+  .footer__wrap {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
