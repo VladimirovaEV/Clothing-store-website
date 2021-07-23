@@ -1,0 +1,15 @@
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.socials__svg {
+  fill: #000;
+  transition-duration: 500ms;
+  transition-property: fill;
+}
+.socials__svg:hover {
+  fill:  #d74747;
+}
